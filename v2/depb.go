@@ -7,6 +7,6 @@ import (
 )
 
 func GetThePkgVersion() string {
-	cmn.NewFunctionality()
-	return fmt.Sprintf("depB (v2): %s, common: %s", "v2.0.0", cmn.GetVersion())
+	// downgrade common pkg
+	return fmt.Sprintf("depB (v2): %s, common: %s", "v2.0.1", cmn.GetVersion())
 }
