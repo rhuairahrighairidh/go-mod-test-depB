@@ -7,5 +7,6 @@ import (
 )
 
 func GetVersion() string {
-	return fmt.Sprintf("depB: %s, common: %s", "v0.1.0", cmn.GetVersion())
+	cmn.NewFunctionality()
+	return fmt.Sprintf("depB: %s, common: %s", "v0.1.1", cmn.GetVersion())
 }
